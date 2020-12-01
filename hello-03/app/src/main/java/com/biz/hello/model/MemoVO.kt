@@ -9,13 +9,13 @@ import androidx.room.PrimaryKey
 class MemoVO {
 
     @PrimaryKey(autoGenerate = true)
-    @ColumnInfo(name = "id")
+    @ColumnInfo(name="id")
     public var id : Long = 0
 
-    @ColumnInfo(name = "date")
+    @ColumnInfo(name="date")
     public var date : String = ""
 
-    @ColumnInfo(name = "time")
+    @ColumnInfo(name="time")
     public var time : String = ""
 
     @ColumnInfo
